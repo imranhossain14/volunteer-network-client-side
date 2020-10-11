@@ -46,7 +46,7 @@ const Register = () => {
         />
         <input type="email" name="email" value={loggedInUser.email} className="form-control mb-2" placeholder="Email Address" id="" ref={register}/>
 
-        <input type="text" name="taskName" placeholder="Task Name" className="form-control mb-2" ref={register}/>
+        <input type="text" name="taskName" placeholder="Enter Your Event Name" className="form-control mb-2" ref={register}/>
 
         <input type="date" className="form-control mb-3" placeholder="Select Date"name="Date" ref={register} required/>
 
@@ -59,7 +59,7 @@ const Register = () => {
         <button type="submit" className="btn btn-success btn-lg btn-block mt-5 mb-3">
   Send </button>
 
-  <Link to="/users" className="d-flex justify-content-center text-muted">Check Your Task</Link>
+  <Link to="/users" className="d-flex justify-content-center text-muted">Your Added Event</Link>
 </form>
 
 </div>
