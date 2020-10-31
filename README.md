@@ -1,15 +1,15 @@
 Live Website: https://volunteer-network-72471.web.app/
 
-#Overview 
+# Overview 
 A Single Page Web Application of tour management where a user can book a tour with check in and out date.
 
-##Features
+## Features
 -	Users can see the places and information.
 -	Users can choose a place.
 -	Authenticated can get hotels for booking by providing dates
 -	Firebase Authentication
 
-##Technologies Used
+## Technologies Used
 -	React.js
 -	React-Hook-Form
 -	React-Carousel
